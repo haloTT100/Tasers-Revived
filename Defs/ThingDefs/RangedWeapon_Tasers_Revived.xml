@@ -12,14 +12,14 @@
 		</graphicData>
 		<projectile>
 			<flyOverhead>false</flyOverhead>
-			<damageDef>Taser</damageDef>
+			<damageDef>Bullet</damageDef>
 			<damageAmountBase>1</damageAmountBase>
 			<stoppingPower>.8</stoppingPower>
 			<speed>51</speed>
 		</projectile>
 		<thingClass>TasersRevived.TaserBullet</thingClass>
 		<taserHediff>Tazed</taserHediff>
-		<taserPower>21.0</taserPower>
+		<taserPower>10.0</taserPower>
 		<taserExcludeRaces></taserExcludeRaces>
 		<taserExcludeFleshTypes>
 			<li>Mechanoid</li>
@@ -28,7 +28,7 @@
 	
 <!-- Taser Bullet Cartridge -->
 
-	<!--<ThingDef Class="RimTaser.ThingDef_RimTaser_HediffBullet" ParentName="BaseBullet">
+	<ThingDef Class="TasersRevived.TaserBulletDef" ParentName="BaseBullet">
 		<defName>Taser_Bullet_Cartridge</defName>
 		<label>Taser Bullet Cartridge</label>
 		<graphicData>
@@ -38,20 +38,18 @@
 		<projectile>
 			<flyOverhead>false</flyOverhead>
 			<damageDef>Bullet</damageDef>
-			<damageAmountBase>0</damageAmountBase>
+			<damageAmountBase>1</damageAmountBase>
 			<stoppingPower>.8</stoppingPower>
 			<speed>55</speed>
 		</projectile>
-		<AddHediffChance>0.85</AddHediffChance>
-		<HediffsToAdd>
-			<li>Tazed</li>
-		</HediffsToAdd>
-		<thingClass>RimTaser.Projectile_RimTaser_Cartridge</thingClass>
-	</ThingDef>-->
+		<thingClass>TasersRevived.TaserBullet</thingClass>
+		<taserHediff>Tazed</taserHediff>
+		<taserPower>20.0</taserPower>
+	</ThingDef>
 	
 <!-- Taser Shell Cartridge -->
 	
-	<!--<ThingDef Class="RimTaser.ThingDef_RimTaser_HediffBullet" ParentName="BaseBullet">
+	<ThingDef Class="TasersRevived.TaserBulletDef" ParentName="BaseBullet">
 		<defName>Taser_Shell_Cartridge</defName>
 		<label>Taser Shell Cartridge</label>
 		<graphicData>
@@ -61,16 +59,14 @@
 		<projectile>
 			<flyOverhead>false</flyOverhead>
 			<damageDef>Bullet</damageDef>
-			<damageAmountBase>0</damageAmountBase>
+			<damageAmountBase>1</damageAmountBase>
 			<stoppingPower>.8</stoppingPower>
 			<speed>72</speed>
 		</projectile>
-		<AddHediffChance>0.85</AddHediffChance>
-		<HediffsToAdd>
-			<li>Tazed</li>
-		</HediffsToAdd>
-		<thingClass>RimTaser.Projectile_RimTaser_Cartridge</thingClass>
-	</ThingDef>-->
+		<thingClass>TasersRevived.TaserBullet</thingClass>
+		<taserHediff>Tazed</taserHediff>
+		<taserPower>30.0</taserPower>
+	</ThingDef>
 	
 <!-- Bolt Taser -->
 	
