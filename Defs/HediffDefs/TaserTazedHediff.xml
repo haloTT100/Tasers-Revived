@@ -3,24 +3,25 @@
 	<HediffDef ParentName="DiseaseBase">
 		<defName>Tazed</defName>
 		<label>tazed</label>
-		<description>Capturing creature drugs. Anesthetic renders creatures unconscious. If you inject many times to creature, It will die easily with overdose.</description>
+		<description>The pawn has been shocked.</description>
 		<lethalSeverity>-1</lethalSeverity>
 		<initialSeverity>0.001</initialSeverity>
+		<hediffClass>TasersRevived.HediffDescChange</hediffClass> <!-- specify the HediffDescChange class -->
         
     <comps>
       <li Class="TasersRevived.HediffCompProperties_SeverityPerDayAfter">
       	<compClass>TasersRevived.HediffComp_SeverityPerDayAfter</compClass>
-        <severityPerDay>-0.6</severityPerDay> <!-- Anesthetic is -0.8 -->
+        <severityPerDay>-0.6</severityPerDay>
         <startChangeSeverityAfter>10800</startChangeSeverityAfter> <!-- 3min -->
       </li>
     </comps>
 		<stages>
 			<li>
-				<label>initial</label>
+				<label>minor</label>
 				<becomeVisible>false</becomeVisible>
 			</li>
 			<li>
-				<label>initial</label>
+				<label>minor</label>
 				<minSeverity>0.1</minSeverity>
 				<capMods>
 					<li>
@@ -34,7 +35,7 @@
 				</capMods>
 			</li>
 			<li>
-				<label>initial</label>
+				<label>minor</label>
 				<minSeverity>0.2</minSeverity>
 				<capMods>
 					<li>
@@ -48,8 +49,9 @@
 				</capMods>
 			</li>
 			<li>
-				<label>initial</label>
+				<label>moderate</label>
 				<minSeverity>0.3</minSeverity>
+				<vomitMtbDays>0.01</vomitMtbDays>
 				<capMods>
 					<li>
 						<capacity>Moving</capacity>
@@ -62,8 +64,9 @@
 				</capMods>
 			</li>
 			<li>
-				<label>minor</label>
+				<label>moderate</label>
 				<minSeverity>0.4</minSeverity>
+				<vomitMtbDays>0.01</vomitMtbDays>
 				<capMods>
 					<li>
 						<capacity>Moving</capacity>
@@ -76,7 +79,7 @@
 				</capMods>
 			</li>
 			<li>
-				<label>minor</label>
+				<label>severe</label>
 				<minSeverity>0.5</minSeverity>
 				<capMods>
 					<li>
@@ -90,7 +93,7 @@
 				</capMods>
 			</li>
 			<li>
-				<label>minor</label>
+				<label>severe</label>
 				<minSeverity>0.6</minSeverity>
 				<capMods>
 					<li>
@@ -104,7 +107,7 @@
 				</capMods>
 			</li>
 			<li>
-				<label>serious</label>
+				<label>extreme</label>
 				<minSeverity>0.7</minSeverity>
 				<capMods>
 					<li>
@@ -132,8 +135,10 @@
 				</capMods>
 			</li>
 			<li>
-				<label>danger</label>
+				<label>extreme</label>
 				<minSeverity>0.9</minSeverity>
+				<lifeThreatening>true</lifeThreatening>
+                <deathMtbDays>5.2</deathMtbDays>
 				<capMods>
 					<li>
 						<capacity>Moving</capacity>
@@ -147,7 +152,7 @@
 			</li>
 			<li>
 				<minSeverity>1.0</minSeverity>
-				<label>lethal dose</label>
+				<label>fatal</label>
 				<capMods>
 					<li>
 						<capacity>Consciousness</capacity>

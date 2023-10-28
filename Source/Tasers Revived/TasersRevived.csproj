@@ -51,6 +51,7 @@
   <ItemGroup>
     <Compile Include="HediffCompProperties_SeverityPerDayAfter.cs" />
     <Compile Include="HediffComp_SeverityPerDayAfter.cs" />
+    <Compile Include="HediffDescChange.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TaserBullet.cs" />
     <Compile Include="TaserBulletDef.cs" />

@@ -19,7 +19,7 @@
 		</projectile>
 		<thingClass>TasersRevived.TaserBullet</thingClass>
 		<taserHediff>Tazed</taserHediff>
-		<taserPower>10.0</taserPower>
+		<taserPower>5.0</taserPower>
 		<taserExcludeRaces></taserExcludeRaces>
 		<taserExcludeFleshTypes>
 			<li>Mechanoid</li>
@@ -44,7 +44,11 @@
 		</projectile>
 		<thingClass>TasersRevived.TaserBullet</thingClass>
 		<taserHediff>Tazed</taserHediff>
-		<taserPower>20.0</taserPower>
+		<taserPower>10.0</taserPower>
+		<taserExcludeRaces></taserExcludeRaces>
+		<taserExcludeFleshTypes>
+			<li>Mechanoid</li>
+		</taserExcludeFleshTypes>
 	</ThingDef>
 	
 <!-- Taser Shell Cartridge -->
@@ -65,7 +69,11 @@
 		</projectile>
 		<thingClass>TasersRevived.TaserBullet</thingClass>
 		<taserHediff>Tazed</taserHediff>
-		<taserPower>30.0</taserPower>
+		<taserPower>15.0</taserPower>
+		<taserExcludeRaces></taserExcludeRaces>
+		<taserExcludeFleshTypes>
+			<li>Mechanoid</li>
+		</taserExcludeFleshTypes>
 	</ThingDef>
 	
 <!-- Bolt Taser -->
@@ -74,6 +82,7 @@
 		<defName>TaserBolt</defName>
 		<label>Bolt Taser</label>
 		<description>The first Taser type weapon.</description>
+		<generateCommonality>0.9</generateCommonality> <!-- Delete to remove from raiders-->
 		<graphicData>
 			<texPath>Things/taser_bolt/Taser_Bolt</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -87,6 +96,7 @@
 			<AccuracyMedium>.40</AccuracyMedium>
 			<AccuracyLong>.10</AccuracyLong>
 			<RangedWeapon_Cooldown>9.0</RangedWeapon_Cooldown>
+			<SellPriceFactor>1</SellPriceFactor>
 		</statBases>
 		<recipeMaker>
 			<researchPrerequisite>Tasers_Revived_Project</researchPrerequisite>
@@ -141,6 +151,7 @@
 		<defName>TaserPulse</defName>
 		<label>Pulse Taser</label>
 		<description>The first formal type of taser firearm.</description>
+		<generateCommonality>0.09</generateCommonality> <!-- Delete to remove from raiders-->
 		<graphicData>
 			<texPath>Things/taser_pulse/Taser_Pulse</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -154,6 +165,7 @@
 			<AccuracyMedium>0.90</AccuracyMedium>
 			<AccuracyLong>0.80</AccuracyLong>
 			<RangedWeapon_Cooldown>8.0</RangedWeapon_Cooldown>
+			<SellPriceFactor>1</SellPriceFactor>
 		</statBases>
 		<recipeMaker>
 			<researchPrerequisite>Tasers_Revived_Taser_Pulse</researchPrerequisite>
@@ -208,6 +220,7 @@
 		<defName>M26Taser</defName>
 		<label>M26 Taser</label>
 		<description>A more weaponised version of the Pulse Taser.</description>
+		<generateCommonality>0.08</generateCommonality> <!-- Delete to remove from raiders-->
 		<graphicData>
 			<texPath>Things/taser_m26/Taser_M26</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -221,6 +234,7 @@
 			<AccuracyMedium>0.45</AccuracyMedium>
 			<AccuracyLong>0.35</AccuracyLong>
 			<RangedWeapon_Cooldown>6.0</RangedWeapon_Cooldown>
+			<SellPriceFactor>1</SellPriceFactor>
 		</statBases>
 		<recipeMaker>
 			<researchPrerequisite>Tasers_Revived_Taser_M26</researchPrerequisite>
@@ -276,6 +290,7 @@
 		<defName>X26Taser</defName>
 		<label>X26 Taser</label>
 		<description>A more refined version of the M26 taser.</description>
+		<generateCommonality>0.07</generateCommonality> <!-- Delete to remove from raiders-->
 		<graphicData>
 			<texPath>Things/taser_x26/Taser_X26</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -289,6 +304,7 @@
 			<AccuracyMedium>.65</AccuracyMedium>
 			<AccuracyLong>.22</AccuracyLong>
 			<RangedWeapon_Cooldown>2.0</RangedWeapon_Cooldown>
+			<SellPriceFactor>1</SellPriceFactor>
 		</statBases>
 		<recipeMaker>
 			<researchPrerequisite>Tasers_Revived_Taser_X26</researchPrerequisite>
@@ -344,6 +360,7 @@
 		<defName>X2Taser</defName>
 		<label>X2 Taser</label>
 		<description>The next step up from the X26 taser.</description>
+		<generateCommonality>0.06</generateCommonality> <!-- Delete to remove from raiders-->
 		<graphicData>
 			<texPath>Things/taser_x2/Taser_X2</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -357,6 +374,7 @@
 			<AccuracyMedium>.65</AccuracyMedium>
 			<AccuracyLong>.22</AccuracyLong>
 			<RangedWeapon_Cooldown>2.0</RangedWeapon_Cooldown>
+			<SellPriceFactor>1</SellPriceFactor>
 		</statBases>
 		<recipeMaker>
 			<researchPrerequisite>Tasers_Revived_Taser_X2</researchPrerequisite>
@@ -411,6 +429,7 @@
 		<defName>X3Taser</defName>
 		<label>X3 Taser</label>
 		<description>The most modern type of handheld sidearm taser.</description>
+		<generateCommonality>0.05</generateCommonality> <!-- Delete to remove from raiders-->
 		<graphicData>
 			<texPath>Things/taser_x3/Taser_X3</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -424,6 +443,7 @@
 			<AccuracyMedium>.65</AccuracyMedium>
 			<AccuracyLong>.22</AccuracyLong>
 			<RangedWeapon_Cooldown>2.0</RangedWeapon_Cooldown>
+			<SellPriceFactor>1</SellPriceFactor>
 		</statBases>
 		<recipeMaker>
 			<researchPrerequisite>Tasers_Revived_Taser_X3</researchPrerequisite>
@@ -478,6 +498,7 @@
 		<defName>X12Taser</defName>
 		<label>X12 Taser</label>
 		<description>A shotgun variant of the taser.</description>
+		<generateCommonality>0.04</generateCommonality> <!-- Delete to remove from raiders-->
 		<graphicData>
 			<texPath>Things/taser_x12/Taser_X12</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -491,6 +512,7 @@
 			<AccuracyMedium>.65</AccuracyMedium>
 			<AccuracyLong>.22</AccuracyLong>
 			<RangedWeapon_Cooldown>2.0</RangedWeapon_Cooldown>
+			<SellPriceFactor>1</SellPriceFactor>
 		</statBases>
 		<recipeMaker>
 			<researchPrerequisite>Tasers_Revived_Taser_X12</researchPrerequisite>
@@ -545,6 +567,7 @@
 		<defName>TaserRifle</defName>
 		<label>Taser Rifle</label>
 		<description>An Assault Rifle variant of the Taser.</description>
+		<generateCommonality>0.03</generateCommonality> <!-- Delete to remove from raiders-->
 		<graphicData>
 			<texPath>Things/taser_rifle/Taser_Rifle</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -558,6 +581,7 @@
 			<AccuracyMedium>0.65</AccuracyMedium>
 			<AccuracyLong>0.55</AccuracyLong>
 			<RangedWeapon_Cooldown>1.70</RangedWeapon_Cooldown>
+			<SellPriceFactor>1.1</SellPriceFactor>
 		</statBases>
 		<recipeMaker>
 			<researchPrerequisite>Tasers_Revived_Taser_Rifle</researchPrerequisite>
@@ -614,6 +638,7 @@
 		<defName>TaserSniper</defName>
 		<label>Taser Sniper</label>
 		<description>A long range sniper variant of the taser.</description>
+		<generateCommonality>0.02</generateCommonality> <!-- Delete to remove from raiders-->
 		<graphicData>
 			<texPath>Things/taser_sniper/Taser_Sniper</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -627,6 +652,7 @@
 			<AccuracyMedium>0.86</AccuracyMedium>
 			<AccuracyLong>0.88</AccuracyLong>
 			<RangedWeapon_Cooldown>2.0</RangedWeapon_Cooldown>
+			<SellPriceFactor>1.2</SellPriceFactor>
 		</statBases>
 		<recipeMaker>
 			<researchPrerequisite>Tasers_Revived_Taser_Sniper</researchPrerequisite>
