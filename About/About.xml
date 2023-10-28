@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ModMetaData>
     <name>Tasers Revived</name>
-    <author>haloTT100</author>
-    <description>mmmmm</description>
-    <packageId>haloTT100.Tasers_Revived</packageId>
+    <author>haloTT100,Survivalmaster, Snake,tikubonn</author>
+    <description>Adds various new types of tasers to Rimworld.</description>
+    <packageId>halott100.tasersrevived</packageId>
     <supportedVersions>
         <li>1.4</li>
     </supportedVersions>
