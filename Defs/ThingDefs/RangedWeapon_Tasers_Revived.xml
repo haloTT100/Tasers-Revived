@@ -135,10 +135,10 @@
 		</tools>
 	</ThingDef>
 
-<!--
+	<!-- Pulse Taser -->
 
 	<ThingDef ParentName="BaseHumanMakeableGun">
-		<defName>RimTaserPulse</defName>
+		<defName>TaserPulse</defName>
 		<label>Pulse Taser</label>
 		<description>The first formal type of taser firearm.</description>
 		<graphicData>
@@ -156,7 +156,7 @@
 			<RangedWeapon_Cooldown>8.0</RangedWeapon_Cooldown>
 		</statBases>
 		<recipeMaker>
-			<researchPrerequisite>RimTasers_Taser_Pulse</researchPrerequisite>
+			<researchPrerequisite>Tasers_Revived_Taser_Pulse</researchPrerequisite>
 			<skillRequirements>
 				<Crafting>6</Crafting>
 			</skillRequirements>
@@ -176,7 +176,7 @@
 				<defaultProjectile>Taser_Electrode_Cartridge</defaultProjectile>
 				<warmupTime>1.1</warmupTime>
 				<range>5</range>
-				<soundCast>RimTaserSound</soundCast>
+				<soundCast>Tasers_Revived_Sound</soundCast>
 				<soundCastTail>GunTail_Light</soundCastTail>
 				<muzzleFlashScale>2</muzzleFlashScale>
 			</li>
@@ -202,8 +202,10 @@
 		</tools>
 	</ThingDef>
 
+	<!-- M26 Taser -->
+
 	<ThingDef ParentName="BaseHumanMakeableGun">
-		<defName>M26RimTaser</defName>
+		<defName>M26Taser</defName>
 		<label>M26 Taser</label>
 		<description>A more weaponised version of the Pulse Taser.</description>
 		<graphicData>
@@ -221,7 +223,7 @@
 			<RangedWeapon_Cooldown>6.0</RangedWeapon_Cooldown>
 		</statBases>
 		<recipeMaker>
-			<researchPrerequisite>RimTasers_Taser_M26</researchPrerequisite>
+			<researchPrerequisite>Tasers_Revived_Taser_M26</researchPrerequisite>
 			<skillRequirements>
 				<Crafting>8</Crafting>
 			</skillRequirements>
@@ -242,7 +244,7 @@
 				<defaultProjectile>Taser_Electrode_Cartridge</defaultProjectile>
 				<warmupTime>1.1</warmupTime>
 				<range>7</range>
-				<soundCast>RimTaserSound</soundCast>
+				<soundCast>Tasers_Revived_Sound</soundCast>
 				<soundCastTail>GunTail_Light</soundCastTail>
 				<muzzleFlashScale>2</muzzleFlashScale>
 			</li>
@@ -268,8 +270,10 @@
 		</tools>
 	</ThingDef>
 
+	<!-- X26 Taser -->
+
 	<ThingDef ParentName="BaseHumanMakeableGun">
-		<defName>X26RimTaser</defName>
+		<defName>X26Taser</defName>
 		<label>X26 Taser</label>
 		<description>A more refined version of the M26 taser.</description>
 		<graphicData>
@@ -287,7 +291,7 @@
 			<RangedWeapon_Cooldown>2.0</RangedWeapon_Cooldown>
 		</statBases>
 		<recipeMaker>
-			<researchPrerequisite>RimTasers_Taser_X26</researchPrerequisite>
+			<researchPrerequisite>Tasers_Revived_Taser_X26</researchPrerequisite>
 			<skillRequirements>
 				<Crafting>10</Crafting>
 			</skillRequirements>
@@ -308,7 +312,7 @@
 				<defaultProjectile>Taser_Electrode_Cartridge</defaultProjectile>
 				<warmupTime>1.1</warmupTime>
 				<range>10</range>
-				<soundCast>RimTaserSound</soundCast>
+				<soundCast>Tasers_Revived_Sound</soundCast>
 				<soundCastTail>GunTail_Light</soundCastTail>
 				<muzzleFlashScale>2</muzzleFlashScale>
 			</li>
@@ -334,8 +338,10 @@
 		</tools>
 	</ThingDef>
 
+	<!-- X2 Taser -->
+
 	<ThingDef ParentName="BaseHumanMakeableGun">
-		<defName>X2RimTaser</defName>
+		<defName>X2Taser</defName>
 		<label>X2 Taser</label>
 		<description>The next step up from the X26 taser.</description>
 		<graphicData>
@@ -353,7 +359,7 @@
 			<RangedWeapon_Cooldown>2.0</RangedWeapon_Cooldown>
 		</statBases>
 		<recipeMaker>
-			<researchPrerequisite>RimTasers_Taser_X2</researchPrerequisite>
+			<researchPrerequisite>Tasers_Revived_Taser_X2</researchPrerequisite>
 			<skillRequirements>
 				<Crafting>10</Crafting>
 			</skillRequirements>
@@ -373,7 +379,7 @@
 				<defaultProjectile>Taser_Electrode_Cartridge</defaultProjectile>
 				<warmupTime>1.1</warmupTime>
 				<range>12</range>
-				<soundCast>RimTaserSound</soundCast>
+				<soundCast>Tasers_Revived_Sound</soundCast>
 				<soundCastTail>GunTail_Light</soundCastTail>
 				<muzzleFlashScale>2</muzzleFlashScale>
 			</li>
@@ -399,8 +405,10 @@
 		</tools>
 	</ThingDef>
 
+	<!-- X3 Taser -->
+
 	<ThingDef ParentName="BaseHumanMakeableGun">
-		<defName>X3RimTaser</defName>
+		<defName>X3Taser</defName>
 		<label>X3 Taser</label>
 		<description>The most modern type of handheld sidearm taser.</description>
 		<graphicData>
@@ -418,7 +426,7 @@
 			<RangedWeapon_Cooldown>2.0</RangedWeapon_Cooldown>
 		</statBases>
 		<recipeMaker>
-			<researchPrerequisite>RimTasers_Taser_X3</researchPrerequisite>
+			<researchPrerequisite>Tasers_Revived_Taser_X3</researchPrerequisite>
 			<skillRequirements>
 				<Crafting>10</Crafting>
 			</skillRequirements>
@@ -438,7 +446,7 @@
 				<defaultProjectile>Taser_Electrode_Cartridge</defaultProjectile>
 				<warmupTime>1.1</warmupTime>
 				<range>12</range>
-				<soundCast>RimTaserSound</soundCast>
+				<soundCast>Tasers_Revived_Sound</soundCast>
 				<soundCastTail>GunTail_Light</soundCastTail>
 				<muzzleFlashScale>2</muzzleFlashScale>
 			</li>
@@ -464,8 +472,10 @@
 		</tools>
 	</ThingDef>
 
+	<!-- X12 Taser -->
+
 	<ThingDef ParentName="BaseHumanMakeableGun">
-		<defName>X12RimTaser</defName>
+		<defName>X12Taser</defName>
 		<label>X12 Taser</label>
 		<description>A shotgun variant of the taser.</description>
 		<graphicData>
@@ -483,7 +493,7 @@
 			<RangedWeapon_Cooldown>2.0</RangedWeapon_Cooldown>
 		</statBases>
 		<recipeMaker>
-			<researchPrerequisite>RimTasers_Taser_X12</researchPrerequisite>
+			<researchPrerequisite>Tasers_Revived_Taser_X12</researchPrerequisite>
 			<skillRequirements>
 				<Crafting>10</Crafting>
 			</skillRequirements>
@@ -503,7 +513,7 @@
 				<defaultProjectile>Taser_Shell_Cartridge</defaultProjectile>
 				<warmupTime>1.1</warmupTime>
 				<range>12</range>
-				<soundCast>RimTaserSound</soundCast>
+				<soundCast>Tasers_Revived_Sound</soundCast>
 				<soundCastTail>GunTail_Light</soundCastTail>
 				<muzzleFlashScale>2</muzzleFlashScale>
 			</li>
@@ -529,8 +539,10 @@
 		</tools>
 	</ThingDef>
 
+	<!-- X26 Taser Rifle -->
+
 	<ThingDef ParentName="BaseHumanMakeableGun">
-		<defName>RimTaserRifle</defName>
+		<defName>TaserRifle</defName>
 		<label>Taser Rifle</label>
 		<description>An Assault Rifle variant of the Taser.</description>
 		<graphicData>
@@ -548,7 +560,7 @@
 			<RangedWeapon_Cooldown>1.70</RangedWeapon_Cooldown>
 		</statBases>
 		<recipeMaker>
-			<researchPrerequisite>RimTasers_Taser_Rifle</researchPrerequisite>
+			<researchPrerequisite>Tasers_Revived_Taser_Rifle</researchPrerequisite>
 			<skillRequirements>
 				<Crafting>10</Crafting>
 			</skillRequirements>
@@ -570,7 +582,7 @@
 				<range>26</range>
 				<burstShotCount>3</burstShotCount>
 				<ticksBetweenBurstShots>10</ticksBetweenBurstShots>
-				<soundCast>RimTaserSound</soundCast>
+				<soundCast>Tasers_Revived_Sound</soundCast>
 				<soundCastTail>GunTail_Light</soundCastTail>
 				<muzzleFlashScale>2</muzzleFlashScale>
 			</li>
@@ -596,8 +608,10 @@
 		</tools>
 	</ThingDef>
 
+	<!-- Taser Sniper -->
+
 	<ThingDef ParentName="BaseHumanMakeableGun">
-		<defName>RimTaserSniper</defName>
+		<defName>TaserSniper</defName>
 		<label>Taser Sniper</label>
 		<description>A long range sniper variant of the taser.</description>
 		<graphicData>
@@ -615,7 +629,7 @@
 			<RangedWeapon_Cooldown>2.0</RangedWeapon_Cooldown>
 		</statBases>
 		<recipeMaker>
-			<researchPrerequisite>RimTasers_Taser_Sniper</researchPrerequisite>
+			<researchPrerequisite>Tasers_Revived_Taser_Sniper</researchPrerequisite>
 			<skillRequirements>
 				<Crafting>16</Crafting>
 			</skillRequirements>
@@ -636,7 +650,7 @@
 				<defaultProjectile>Taser_Bullet_Cartridge</defaultProjectile>
 				<warmupTime>3.5</warmupTime>
 				<range>44.9</range>
-				<soundCast>RimTaserSound</soundCast>
+				<soundCast>Tasers_Revived_Sound</soundCast>
 				<soundCastTail>GunTail_Light</soundCastTail>
 				<muzzleFlashScale>2</muzzleFlashScale>
 			</li>
@@ -661,5 +675,4 @@
 			</li>
 		</tools>
 	</ThingDef>
-	-->
 </Defs>
