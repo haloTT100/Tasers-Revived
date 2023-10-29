@@ -23,6 +23,8 @@
 		<taserExcludeRaces></taserExcludeRaces>
 		<taserExcludeFleshTypes>
 			<li>Mechanoid</li>
+			<li>VREA_AndroidFlesh</li>
+			<li>ATR_AndroidTier</li>
 		</taserExcludeFleshTypes>
 	</ThingDef>
 	
@@ -48,6 +50,8 @@
 		<taserExcludeRaces></taserExcludeRaces>
 		<taserExcludeFleshTypes>
 			<li>Mechanoid</li>
+			<li>VREA_AndroidFlesh</li>
+			<li>ATR_AndroidTier</li>
 		</taserExcludeFleshTypes>
 	</ThingDef>
 	
@@ -73,6 +77,8 @@
 		<taserExcludeRaces></taserExcludeRaces>
 		<taserExcludeFleshTypes>
 			<li>Mechanoid</li>
+			<li>VREA_AndroidFlesh</li>
+			<li>ATR_AndroidTier</li>
 		</taserExcludeFleshTypes>
 	</ThingDef>
 	
