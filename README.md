@@ -17,5 +17,7 @@ Ignore those, you are not using Android Tiers or VRE Android.
 
 
 GitHub source code: https://github.com/haloTT100/Tasers-Revived
+
 RimTaser Reloaded on Steam: https://steamcommunity.com/sharedfiles/filedetails/?id=1745038195
+
 Anesthetic Gun MOD on Steam: https://steamcommunity.com/sharedfiles/filedetails/?id=1220397176
