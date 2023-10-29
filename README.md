@@ -1,0 +1,21 @@
+Tasers Revived is a revival of the classic RimTaser Reloaded mod, initially created by Survivalmaster, Snake. RimTaser Reloaded was last updated in 2021 and has been dormant ever since. This mod brings the beloved concept of less-lethal incapacitation back to the Rimworld. Sadly, with 1.4 I can’t make the Tasers do zero damage.
+
+Please note that Tasers Revived does not address the balance issues of RimTaser Reloaded. This mod is unbalanced.
+
+This mod would not have been possible without the incredible work of Survivalmaster, Snake, the creators of RimTaser Reloaded. Their creativity and dedication paved the way for the revival of this unique Rimworld mod. Additionally, credit goes to the creator of the Anesthetic Gun MOD tikubonn, as I used its code for the mod.
+
+Should any of the creators wish to take this mod down or have any concerns, I’m fully committed to respecting their wishes and will gladly comply.
+If you want to improve the mod you can do it on my GitHub page.
+
+
+FAQ:
+Is it CE compatible?
+Probably not. I don’t use it, test it for yourself.
+Getting cross-reference errors
+Ignore those, you are not using Android Tiers or VRE Android. 
+
+
+
+GitHub source code: https://github.com/haloTT100/Tasers-Revived
+RimTaser Reloaded on Steam: https://steamcommunity.com/sharedfiles/filedetails/?id=1745038195
+Anesthetic Gun MOD on Steam: https://steamcommunity.com/sharedfiles/filedetails/?id=1220397176
